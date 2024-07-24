@@ -107,3 +107,39 @@ footer {
 .footer-links a:hover {
     text-decoration:underline;
 }
+@media screen and (max-width:1150px){
+    #gridey{
+        margin-left:2px ;
+
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+         margin-left:  -520px;
+     }
+}
+@media screen and (max-width:450px){
+.bla
+{
+    display: flex;
+   flex-direction: column;
+    gap: 20px 40px;
+    margin-bottom: 50px;
+}
+.blao
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 40px;
+}
+#gridey
+{
+    margin-left:5px;
+    margin-top: 50px;
+}
+.footer-links {
+   display: flex;
+   flex-direction: column;
+    margin-left:  -520px;
+}
+}
