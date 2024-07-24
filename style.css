@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:gray;
+}
+.logo ul li
+{
+  
+    list-style-type: none;
+    
+}
+ul{
+    display: flex;
+    gap: 20px;
+   margin-top: 40px;
+   margin-right: 60px;
+   color: white;
+}
+.logo ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+#anime
+{
+    font-weight: 700;
+    font-size:25px ;
+    color: rgb(25, 2, 2);
+   
+
+}
+.parent
+{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px 10px;
+    margin: 150px 300px;
+}
+.child
+{
+    justify-content: space-around;
+}
+.bla
+{
+    display: flex;
+    gap: 20px 40px;
+    margin-bottom: 50px;
+}
+#image
+{
+    background-position: center;
+    
+    width: 100%;
+   
+}
+.blao
+{
+    display: flex;
+    gap: 20px 40px;
+}
+#gridey
+{
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+/* footer */
+#foot
+{
+    position:absolute;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    padding-left: 500px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration:underline;
+}
